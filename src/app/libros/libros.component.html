@@ -1,0 +1,24 @@
+<br>
+<div id="todo" class="todos">
+<ul>
+        <li *ngFor="let item of Lista">         
+            <div id="libros">  
+                <p>{{item.nombre}}</p>
+                <img id="imagen"src="/assets/{{item.imagen}}">
+                <p>Autor: {{item.autor}}</p>
+                <p>Paginas: {{item.paginas}}</p>       
+            </div>    
+        </li>  
+</ul>
+<br>
+<ul>
+    <li *ngFor="let item of Lista2" >
+        <div id="libros"> 
+            <p>{{item.nombre}}</p>
+            <img id="imagen"src="/assets/{{item.imagen}}">
+            <p>Autor: {{item.autor}}</p>
+            <p>Paginas: {{item.paginas}}</p>       
+        </div>
+    </li>
+</ul>
+</div>

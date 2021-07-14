@@ -1,0 +1,38 @@
+
+<form id="formulario">
+
+    <fieldset id="caja">
+        <label>Nombre completo. </label>
+        <mat-form-field appearance="fill" >  
+           <mat-label >Ingrese su nombre</mat-label>
+           <input matInput type="text" >
+        </mat-form-field>
+        <br>
+        <label>Pais.</label>
+        <mat-form-field appearance="fill"  >
+            <mat-label >Seleccione su pais</mat-label>
+            <mat-select>
+            <mat-option value="uno">Chile</mat-option>
+            <mat-option value="dos">Argentina</mat-option>
+            <mat-option value="tres">Brasil</mat-option>
+            <mat-option value="cuatro">Uruguay</mat-option>
+            <mat-option value="cinco">Peru</mat-option>
+            <mat-option value="seis">Bolivia</mat-option>
+            <mat-option value="siente">Otro</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <br>
+        <label>Observacion.</label>
+        <mat-form-field appearance="fill">
+            <mat-label>Escriba aqui</mat-label>
+            <textarea matInput maxlength="200" type="text" ></textarea>
+        </mat-form-field>
+        <br>
+
+        <a [routerLink]="['/enviar']" routerLinkActive="router-link-active"> <button mat-button color="black">Enviar</button></a>
+    
+    </fieldset>
+
+</form>
+
+<br>

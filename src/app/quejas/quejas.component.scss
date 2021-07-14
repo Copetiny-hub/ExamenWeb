@@ -1,0 +1,34 @@
+#formulario{
+    padding-top: 30px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content:right;
+    text-align: center;
+}
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+
+mat-form-field{
+    width: 500px;
+ 
+  }
+  #caja{
+      border: 2px solid black;
+      width: 100%;
+      height: 100%;
+  }
+
+  label{
+      display:block;
+  }
+ button {
+    background-color: #D0ECE7 ;
+    border: 1px solid black;
+    color: black;
+  }
